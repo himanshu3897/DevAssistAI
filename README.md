@@ -1,81 +1,36 @@
-# DevAssist AI — AI-Powered Code Review & Test Assistant
+# Himanshu Baneshi — .NET Developer Portfolio
 
-A personal portfolio project demonstrating **C# / ASP.NET Core 8**, REST API design, and integration with an OpenAI-compatible AI endpoint. DevAssist AI lets a developer submit a small code snippet and request a review, refactoring ideas, or a draft of unit tests.
+A portfolio of personal demonstration projects focused on **C#, ASP.NET Core, REST APIs, and modern frontend development**. These are showcase projects, not client deliverables.
 
-> **Status:** Starter implementation. Build and validate locally before presenting it as a working live demo. AI output is a draft and must be reviewed by a developer.
+## Projects
 
-## What it demonstrates
+### 1. DevAssist AI — ASP.NET Core + AI API
+AI-assisted code review, refactoring suggestions, and unit-test drafting through an OpenAI-compatible endpoint.
+- **Stack:** C#, .NET 8, ASP.NET Core Minimal API, HTML, CSS, JavaScript
+- **Folder:** [DevAssistAI](./DevAssistAI) · [Project README](./DevAssistAI/README.md)
 
-- ASP.NET Core Minimal API and request validation
-- Server-side AI provider integration (API keys are not sent to the browser)
-- Three workflows: code review, refactoring suggestions, and unit-test drafting
-- A responsive browser UI built with HTML, CSS, and JavaScript
-- Configuration through environment variables
-- Clear handling for missing configuration and provider failures
+### 2. TaskFlow — .NET Web API + Angular
+A task-tracking demo showing CRUD endpoints, task status updates, an Angular service, and a simple task board.
+- **Stack:** C#, ASP.NET Core 8, Angular, TypeScript, REST API
+- **Folder:** [TaskFlow](./TaskFlow) · [Project README](./TaskFlow/README.md)
 
-## Tech stack
+### 3. StockDesk — .NET Web API + React
+An inventory dashboard demo showing product endpoints, React hooks, API calls, search, and low-stock indicators.
+- **Stack:** C#, ASP.NET Core 8, React, TypeScript, Vite, REST API
+- **Folder:** [StockDesk](./StockDesk) · [Project README](./StockDesk/README.md)
 
-- C#, .NET 8, ASP.NET Core
-- REST API, HttpClient, System.Text.Json
-- HTML, CSS, vanilla JavaScript
+## Technologies represented
 
-## Run locally
+C#, .NET 8, ASP.NET Core Web API, REST API design, Angular, TypeScript, React, AI API integration, configuration, and error handling.
 
-1. Install the .NET 8 SDK.
-2. Open a terminal in the `DevAssistAI` directory.
-3. Configure your AI provider environment variables:
+## Important status note
 
-**macOS / Linux**
-```bash
-export AI__ApiKey="YOUR_API_KEY"
-export AI__Model="YOUR_MODEL_NAME"
-# Optional; use your provider's OpenAI-compatible Chat Completions URL
-export AI__Endpoint="https://api.openai.com/v1/chat/completions"
-dotnet run
-```
+These are starter/demo implementations. Build and run each backend and frontend locally before presenting them as verified working applications. The demos use in-memory sample data, so data resets when the backend restarts. They are not production-ready and do not claim production deployment or client delivery.
 
-**Windows PowerShell**
-```powershell
-$env:AI__ApiKey = "YOUR_API_KEY"
-$env:AI__Model = "YOUR_MODEL_NAME"
-$env:AI__Endpoint = "https://api.openai.com/v1/chat/completions"
-dotnet run
-```
+## Security
 
-Open the local URL printed by the application. Provider model names and endpoint formats vary; configure values supported by your chosen provider.
+Never commit API keys, credentials, secrets, employer/client source code, or confidential data. Review and test all code before reuse.
 
-## API
+## Upwork portfolio draft
 
-`POST /api/analyze`
-
-Example request:
-```json
-{
-  "code": "public int Add(int a, int b) => a + b;",
-  "task": "review",
-  "language": "csharp"
-}
-```
-
-Allowed task values: `review`, `refactor`, `tests`. A health endpoint is available at `GET /api/health`.
-
-## Security and responsible use
-
-- Never commit API keys, credentials, or private configuration.
-- Do not submit confidential employer/client code, secrets, payment data, personal data, or regulated information to an external AI provider.
-- The configured provider receives submitted code snippets.
-- AI responses can be incorrect or insecure. Review output and validate it with compilation, tests, and security checks.
-- This is a portfolio demo, not a production-ready code-analysis service. Production use would require authentication, rate limiting, privacy-aware logging, monitoring, and deployment hardening.
-
-## About this portfolio
-
-This is an original personal demo intended to showcase backend API development and practical AI integration. It is not represented as a client project or as a deployed production service.
-
-## Author
-
-**Himanshu Baneshi** — Senior .NET Full-Stack Developer
-
-Core areas: C#, ASP.NET Core, REST APIs, SQL Server, Angular, React, and AI-assisted development (where applicable to the project).
-
----
-If you find this useful, feel free to star the repository or open an issue with suggestions.
+See [UPWORK_PORTFOLIO.md](./UPWORK_PORTFOLIO.md) for draft profile text and project descriptions. Verify every claim before publishing.
