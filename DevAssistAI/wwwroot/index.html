@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="DevAssist AI — a personal demo for AI-assisted code review, refactoring, and unit-test drafting.">
+  <title>DevAssist AI | Developer Workspace</title>
+  <link rel="stylesheet" href="/styles.css">
+  <script src="/app.js" defer></script>
+</head>
+<body>
+  <header class="topbar">
+    <a class="brand" href="/" aria-label="DevAssist AI home"><span class="brand-mark">D</span><span>DevAssist <b>AI</b></span></a>
+    <span class="status"><span class="status-dot"></span> Developer workspace</span>
+  </header>
+  <main class="layout">
+    <section class="intro">
+      <p class="eyebrow">YOUR AI-ASSISTED WORKBENCH</p>
+      <h1>Write better code.<br><span>With a second pair of eyes.</span></h1>
+      <p class="lede">Review a snippet, explore a refactor, or draft unit tests. You stay in control of every change.</p>
+      <div class="capabilities"><span>01 &nbsp; Code review</span><span>02 &nbsp; Refactoring</span><span>03 &nbsp; Unit tests</span></div>
+    </section>
+    <section class="workspace" aria-labelledby="workspace-title">
+      <div class="panel-heading"><div><p class="eyebrow">WORKSPACE</p><h2 id="workspace-title">Analyze a code snippet</h2></div><span class="language-tag">C# / .NET</span></div>
+      <form id="analysis-form">
+        <div class="field-row">
+          <label for="task">What do you need?</label>
+          <select id="task" name="task">
+            <option value="review">Review code</option>
+            <option value="refactor">Suggest refactor</option>
+            <option value="tests">Draft unit tests</option>
+          </select>
+        </div>
+        <div class="field-row">
+          <label for="language">Language</label>
+          <input id="language" name="language" value="csharp" maxlength="60" autocomplete="off">
+        </div>
+        <div class="editor-heading"><label for="code">Your code</label><button id="load-example" class="text-button" type="button">Load example</button></div>
+        <textarea id="code" name="code" spellcheck="false" maxlength="20000" placeholder="Paste a small code snippet here…" required></textarea>
+        <div class="editor-footer"><span id="char-count">0 / 20,000 characters</span><span>Do not paste confidential code</span></div>
+        <button id="submit-button" class="primary-button" type="submit"><span>Run analysis</span><span aria-hidden="true">↗</span></button>
+      </form>
+      <section id="result-section" class="result-section" aria-live="polite" hidden>
+        <div class="result-heading"><h3>Analysis result</h3><button id="copy-result" class="text-button" type="button">Copy result</button></div>
+        <pre id="result"></pre>
+      </section>
+      <p class="disclaimer">AI-generated suggestions may be incorrect. Review, compile, test, and security-check all output before use.</p>
+    </section>
+    <footer>Personal portfolio demo · ASP.NET Core 8 · AI provider configured server-side</footer>
+  </main>
+</body>
+</html>
