@@ -1,119 +1,81 @@
-# Upwork Portfolio Copy — Himanshu Baneshi
+# Upwork Portfolio Draft — Himanshu Baneshi
 
-Use this document as a draft for your Upwork profile. Verify every detail before publishing. Do not include confidential client names, internal system details, proprietary screenshots, or employer source code.
+This file contains copy you can use when adding personal demo projects to the Upwork portfolio. All three items below are **personal demonstration projects**, not paid client work. Do not imply production deployment or tested status unless you have verified it yourself.
 
-## Profile title
+## Project 1 — DevAssist AI
 
-**Senior .NET Full-Stack Developer | Angular, React & AI**
+**Suggested title:** AI Code Review Assistant with ASP.NET Core and .NET 8
 
-## Profile overview draft
-
-I’m a full-stack software developer focused on building and improving web applications, APIs, and enterprise integrations with C#, ASP.NET Core, SQL Server, Angular, and React.
-
-My experience includes backend API development, frontend features, third-party integrations, and applications in enterprise and financial-services environments. I also use AI-assisted development tools to support debugging, refactoring, code review, and unit-test drafting—while validating the output with engineering judgment rather than accepting it blindly.
-
-I can help with:
-- ASP.NET Core and C# Web API development
-- API integration, troubleshooting, and backend improvements
-- Angular and React frontend features
-- SQL Server and Entity Framework Core
-- Refactoring, bug fixing, and unit-test support
-- Practical AI API integration into .NET applications
-
-I value clear communication, maintainable code, and solutions that fit the existing project rather than unnecessary rewrites. Share the problem, current stack, and expected outcome, and I’ll help break it into practical steps.
-
-**Before using:** Confirm your years of experience and skills against your current CV. An earlier CV version provided for this work stated 4 years 4 months; this draft says nothing about a specific number of years to avoid an unverified mismatch.
-
----
-
-## Portfolio item 1 — Personal demo: DevAssist AI
-
-**Suggested title:** AI-Powered Code Review & Unit Test Assistant with ASP.NET Core
-
-**Description:**  
-DevAssist AI is a personal demo that connects an ASP.NET Core API to an OpenAI-compatible AI endpoint. Developers can submit a small code sample and request a code review, refactoring suggestions, or a draft of unit tests.
+**Short description:**
+A personal demo that connects an ASP.NET Core API to an OpenAI-compatible chat-completions endpoint. It lets a developer submit a code sample and request review feedback, refactoring suggestions, or a draft of unit tests.
 
 **What it demonstrates:**
-- ASP.NET Core Minimal API and request validation
-- Server-side AI provider integration
-- A simple responsive browser interface
-- Environment-based configuration and error handling
+- C# and ASP.NET Core Minimal API
+- Server-side AI-provider integration and environment-based configuration
+- Input validation and provider error handling
+- A simple browser interface
 - Human review of AI-generated output
 
-**Project link:** https://github.com/himanshu3897/DevAssistAI
+**Technology:** C#, .NET 8, ASP.NET Core, REST API, HTML, CSS, JavaScript, AI API integration.
 
-**Status:** Starter implementation. Do not claim a live deployment, successful benchmark, or measured productivity improvement unless you have tested and documented it.
+**Source:** https://github.com/himanshu3897/DevAssistAI/tree/main/DevAssistAI
 
-## Portfolio item 2 — TaskFlow (ASP.NET Core + Angular)
+**Honest status note:** Personal starter demo. Requires an AI-provider key and model configuration. Do not claim the generated code was tested automatically or that the app is production-ready.
 
-**Suggested title:** Task Management Web App with .NET 8 and Angular
+## Project 2 — TaskFlow
 
-**Description:**  
-TaskFlow is a personal full-stack demo featuring task creation, completion status updates, deletion, and an Angular interface connected to an ASP.NET Core Minimal API.
+**Suggested title:** Task Management Demo with .NET 8 Web API and Angular
 
-**Stack:** C#, .NET 8, ASP.NET Core Minimal API, Angular, TypeScript, HttpClient.
+**Short description:**
+A personal full-stack demo for creating tasks, viewing the task list, changing completion status, and deleting tasks. The Angular UI communicates with an ASP.NET Core Minimal API.
 
-**Project link:** https://github.com/himanshu3897/DevAssistAI/tree/main/TaskFlow
+**What it demonstrates:**
+- REST endpoints for basic task operations
+- Angular standalone UI and typed API service
+- Loading/error feedback and basic form validation
+- Frontend-to-backend integration
 
-**Status:** Starter implementation with in-memory data. Run and verify locally before describing it as tested.
+**Technology:** C#, .NET 8, ASP.NET Core Minimal API, Angular, TypeScript, HttpClient.
 
-## Portfolio item 3 — StockDesk (ASP.NET Core + React)
+**Source:** https://github.com/himanshu3897/DevAssistAI/tree/main/TaskFlow
+
+**Honest status note:** Starter demo using in-memory data; data resets when the API restarts. Build and run locally before describing it as verified.
+
+## Project 3 — StockDesk
 
 **Suggested title:** Inventory Dashboard with .NET 8, React and TypeScript
 
-**Description:**  
-StockDesk is a personal inventory-management demo with product search, add/delete workflows, quantity indicators, and a React dashboard that consumes an ASP.NET Core API.
+**Short description:**
+A personal inventory-management demo with product listing and search, add/delete workflows, quantity indicators, and a React dashboard connected to an ASP.NET Core API.
 
-**Stack:** C#, .NET 8, ASP.NET Core Minimal API, React, TypeScript, Vite.
+**What it demonstrates:**
+- ASP.NET Core API endpoints for product data
+- React and TypeScript UI with API calls
+- Product search and inventory status cues
+- Clear separation between frontend and backend
 
-**Project link:** https://github.com/himanshu3897/DevAssistAI/tree/main/StockDesk
+**Technology:** C#, .NET 8, ASP.NET Core Minimal API, React, TypeScript, Vite.
 
-**Status:** Starter implementation with in-memory data. Run and verify locally before describing it as tested.
+**Source:** https://github.com/himanshu3897/DevAssistAI/tree/main/StockDesk
 
-## Portfolio item 4 — Open Banking and payment API integration
-
-**Suggested title:** Open Banking API Integration & Payment Workflow Development with .NET
-
-**Description draft:**  
-Contributed to an enterprise banking integration project involving Web API functionality and payment-related workflows. Work included backend implementation and supporting API validation.
-
-**Showcase suggestion:** Create a fictional architecture diagram that demonstrates a client, API layer, payment workflow, and external provider boundary. Do not publish internal endpoints, credentials, proprietary diagrams, or client-confidential details.
-
-## Portfolio item 5 — Contract management portal
-
-**Suggested title:** Contract Management Portal with Angular and Web APIs
-
-**Description draft:**  
-Contributed to an internal application designed to help administrative and finance users access contract documents from a centralized location, including frontend functionality and API integration.
-
-**Showcase suggestion:** Create a sample contract list and document details page using entirely fictional data. Include SharePoint integration only if it accurately reflects your contribution and is safe to discuss.
-
-## Portfolio item 6 — Employee access administration
-
-**Suggested title:** Employee Application Access Management Portal
-
-**Description draft:**  
-Contributed to an enterprise tool intended to centralize application-access administration through a common workflow.
-
-**Showcase suggestion:** Use dummy users, applications, and approval statuses. Mention authorization, audit trails, or approval rules only if those were actually part of the project.
-
-## Portfolio item 7 — GenAI customer insights
-
-**Suggested title:** Customer Interaction Insights Application with GenAI
-
-**Description draft:**  
-Contributed frontend and Web API functionality to an application designed to help derive customer and brand-perception insights from customer interactions.
-
-**Showcase suggestion:** Create a clearly labelled illustrative dashboard with fictional summaries. Do not claim a specific model, analytics method, or measured business outcome unless verified.
+**Honest status note:** Starter demo using in-memory sample data; changes reset when the API restarts. Build and run locally before describing it as verified.
 
 ---
 
-## Before publishing to Upwork
+## Suggested portfolio presentation
 
-- Verify experience duration and update the CV so it matches the profile.
-- List only technologies and tools you can confidently discuss with clients.
-- Confirm each project description accurately reflects your own contribution.
-- Keep client and employer information confidential.
-- Generate original screenshots from your own demo or clearly label illustrative mockups.
-- Build and run DevAssist AI locally before describing it as a working application.
-- Never claim production deployment, client delivery, or quantified results without evidence.
+For each item, add:
+1. A screenshot captured from your own locally running demo.
+2. The project-specific GitHub link.
+3. A short description based on the copy above.
+4. A clear note that it is a personal demo if the Upwork form asks for your role or project context.
+
+Do not use screenshots, diagrams, source code, internal URLs, or client/employer names from confidential work. For enterprise experience, describe your own contribution at a high level only where disclosure is permitted; use a fictional architecture or sample UI if you want a visual case study.
+
+## Profile consistency checklist
+
+- Keep the headline aligned with your core service: .NET / ASP.NET Core first, then Angular, React, and AI integration.
+- Mention only technologies you can confidently discuss and use.
+- Keep experience duration consistent with your current CV and employment dates.
+- Do not invent metrics, client results, testimonials, certifications, or production deployments.
+- The current Upwork portfolio is empty, so these are drafts to add through Upwork's portfolio interface; this file does not publish them automatically.
