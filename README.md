@@ -1,36 +1,45 @@
-# Himanshu Baneshi — .NET Developer Portfolio
+# Himanshu Baneshi — .NET & Full-Stack Portfolio
 
-A portfolio of personal demonstration projects focused on **C#, ASP.NET Core, REST APIs, and modern frontend development**. These are showcase projects, not client deliverables.
+Personal demonstration projects showcasing practical work with **C#, .NET 8, ASP.NET Core APIs, Angular, React, TypeScript, and AI API integration**.
 
-## Projects
+These repositories are learning/showcase demos, not client deliverables. The code and setup instructions should be verified locally before relying on them for a production use case.
 
-### 1. DevAssist AI — ASP.NET Core + AI API
-AI-assisted code review, refactoring suggestions, and unit-test drafting through an OpenAI-compatible endpoint.
-- **Stack:** C#, .NET 8, ASP.NET Core Minimal API, HTML, CSS, JavaScript
-- **Folder:** [DevAssistAI](./DevAssistAI) · [Project README](./DevAssistAI/README.md)
+## Featured projects
 
-### 2. TaskFlow — .NET Web API + Angular
-A task-tracking demo showing CRUD endpoints, task status updates, an Angular service, and a simple task board.
-- **Stack:** C#, ASP.NET Core 8, Angular, TypeScript, REST API
-- **Folder:** [TaskFlow](./TaskFlow) · [Project README](./TaskFlow/README.md)
+| Project | What it demonstrates | Stack | Source |
+|---|---|---|---|
+| **DevAssist AI** | Submit a code sample for AI-assisted review, refactoring suggestions, or unit-test drafts | C#, .NET 8, ASP.NET Core Minimal API, HTML/CSS/JavaScript, OpenAI-compatible API | [Open project](./DevAssistAI) |
+| **TaskFlow** | A simple task board with CRUD operations and task completion updates | C#, .NET 8, ASP.NET Core Minimal API, Angular, TypeScript | [Open project](./TaskFlow) |
+| **StockDesk** | Inventory search, product management, quantity indicators, and low-stock cues | C#, .NET 8, ASP.NET Core Minimal API, React, TypeScript, Vite | [Open project](./StockDesk) |
 
-### 3. StockDesk — .NET Web API + React
-An inventory dashboard demo showing product endpoints, React hooks, API calls, search, and low-stock indicators.
-- **Stack:** C#, ASP.NET Core 8, React, TypeScript, Vite, REST API
-- **Folder:** [StockDesk](./StockDesk) · [Project README](./StockDesk/README.md)
+## What clients can evaluate
 
-## Technologies represented
+- Backend endpoint design and request validation
+- REST API integration with modern frontend applications
+- Angular and React UI structure and API consumption
+- AI-provider integration with server-side credentials
+- Error handling, configuration, and security-conscious implementation choices
+- Clear run instructions and documented trade-offs
 
-C#, .NET 8, ASP.NET Core Web API, REST API design, Angular, TypeScript, React, AI API integration, configuration, and error handling.
+## Start here
 
-## Important status note
+1. Choose a project above and read its project-specific README.
+2. Install the required .NET SDK and Node.js version.
+3. Follow the local run steps in that README.
+4. For DevAssist AI, configure provider credentials through environment variables. Never commit API keys.
+5. Verify the app locally before treating it as a tested demonstration.
 
-These are starter/demo implementations. Build and run each backend and frontend locally before presenting them as verified working applications. The demos use in-memory sample data, so data resets when the backend restarts. They are not production-ready and do not claim production deployment or client delivery.
+## Demo limitations
 
-## Security
+- TaskFlow and StockDesk use in-memory sample data; changes reset when their APIs restart.
+- DevAssist AI requires a compatible AI provider, model, and API key.
+- These demos are starter implementations, not production-ready applications.
+- No production deployment, client delivery, benchmark, or business outcome is claimed.
 
-Never commit API keys, credentials, secrets, employer/client source code, or confidential data. Review and test all code before reuse.
+## Security and confidentiality
 
-## Upwork portfolio draft
+Do not submit confidential employer/client code, credentials, customer data, payment data, or personal information to these demos. DevAssist AI sends submitted code to the AI provider configured by the server. Review generated suggestions and validate them with compilation, tests, and security review.
 
-See [UPWORK_PORTFOLIO.md](./UPWORK_PORTFOLIO.md) for draft profile text and project descriptions. Verify every claim before publishing.
+## Upwork portfolio notes
+
+See [UPWORK_PORTFOLIO.md](./UPWORK_PORTFOLIO.md) for concise, transparent project descriptions prepared for a portfolio. Add them to Upwork only after reviewing each project and confirming that the wording accurately describes your work.
