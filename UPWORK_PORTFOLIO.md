@@ -44,7 +44,33 @@ DevAssist AI is a personal demo that connects an ASP.NET Core API to an OpenAI-c
 
 **Status:** Starter implementation. Do not claim a live deployment, successful benchmark, or measured productivity improvement unless you have tested and documented it.
 
-## Portfolio item 2 — Open Banking and payment API integration
+## Portfolio item 2 — TaskFlow (ASP.NET Core + Angular)
+
+**Suggested title:** Task Management Web App with .NET 8 and Angular
+
+**Description:**  
+TaskFlow is a personal full-stack demo featuring task creation, completion status updates, deletion, and an Angular interface connected to an ASP.NET Core Minimal API.
+
+**Stack:** C#, .NET 8, ASP.NET Core Minimal API, Angular, TypeScript, HttpClient.
+
+**Project link:** https://github.com/himanshu3897/DevAssistAI/tree/main/TaskFlow
+
+**Status:** Starter implementation with in-memory data. Run and verify locally before describing it as tested.
+
+## Portfolio item 3 — StockDesk (ASP.NET Core + React)
+
+**Suggested title:** Inventory Dashboard with .NET 8, React and TypeScript
+
+**Description:**  
+StockDesk is a personal inventory-management demo with product search, add/delete workflows, quantity indicators, and a React dashboard that consumes an ASP.NET Core API.
+
+**Stack:** C#, .NET 8, ASP.NET Core Minimal API, React, TypeScript, Vite.
+
+**Project link:** https://github.com/himanshu3897/DevAssistAI/tree/main/StockDesk
+
+**Status:** Starter implementation with in-memory data. Run and verify locally before describing it as tested.
+
+## Portfolio item 4 — Open Banking and payment API integration
 
 **Suggested title:** Open Banking API Integration & Payment Workflow Development with .NET
 
@@ -53,7 +79,7 @@ Contributed to an enterprise banking integration project involving Web API funct
 
 **Showcase suggestion:** Create a fictional architecture diagram that demonstrates a client, API layer, payment workflow, and external provider boundary. Do not publish internal endpoints, credentials, proprietary diagrams, or client-confidential details.
 
-## Portfolio item 3 — Contract management portal
+## Portfolio item 5 — Contract management portal
 
 **Suggested title:** Contract Management Portal with Angular and Web APIs
 
@@ -62,7 +88,7 @@ Contributed to an internal application designed to help administrative and finan
 
 **Showcase suggestion:** Create a sample contract list and document details page using entirely fictional data. Include SharePoint integration only if it accurately reflects your contribution and is safe to discuss.
 
-## Portfolio item 4 — Employee access administration
+## Portfolio item 6 — Employee access administration
 
 **Suggested title:** Employee Application Access Management Portal
 
@@ -71,7 +97,7 @@ Contributed to an enterprise tool intended to centralize application-access admi
 
 **Showcase suggestion:** Use dummy users, applications, and approval statuses. Mention authorization, audit trails, or approval rules only if those were actually part of the project.
 
-## Portfolio item 5 — GenAI customer insights
+## Portfolio item 7 — GenAI customer insights
 
 **Suggested title:** Customer Interaction Insights Application with GenAI
 
